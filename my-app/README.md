@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Zadatak 1 - kreiranje aplikacije
+### Potrebno je otvoriti Windows Command Prompt ili Visual Studio Code Terminal te utipkati sljedeće naredbe:
+   1. npx create-react-app moja-prva-aplikacija
+   2. cd moja-prva-aplikacija
+   3. npm start
+   4. Otvoriti internet preglednik na stranici http://localhost:3000
+### Potom je potrebno:
+   5. promijeniti favicon aplikacije
+   6. promijeniti naziv aplikacije
+   7. ispisati "Moja prva aplikacija" na web stranici
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Zadatak 2 - Dependency Management
+### Početno stanje: npx creat-react-app (Zadatak 1)
+	 1.	Napraviti novu react aplikaciju
+	 2.	Na npmjs.com pronaći neki paket za generiranje random stringa
+	 3.	Instalirati taj paket u novokreiranu aplikaciju, osigurati da je paket naveden i pod dependencies
+	 4.	Iskoristiti instalirani paket za generiranje random stringa
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Zadatak 3 - Import/Export
+### Potrebno napraviti React aplikaciju koja će imati slijedeće:
+	1.	Napraviti novu React aplikaciju. (Zadatak 1, ili nastavljamo na postojećoj aplikaciji)
+	2.	Napraviti jednu datoteku s default export modulom (Person.js)
+	3.	Napraviti novu datoteku s tri named export modula (Utility.js)
+	4.	Unutar App.js-a importati sve export-ane modele
+	5.	Iskoristiti sve importane module
+	
+# Zadatak 4 - Index.js
+### Početno stanje: Početno stanje u mapi src/Components su napravljene četiri komponente.
+### Potrebno napraviti React aplikaciju koja će raditi slijedeće:
+	1. Unutar App.js-a u jednoj programskoj naredbi importati sve četiri komponente.
+	2. Prikazati sve četiri komponente na ekranu.
+	
+# Zadatak 5 - JSX
+### U ovoj vježbi, potrebno je napraviti sljedeće:
+	1.	Napraviti novu React aplikaciju
+	2.	Unutar App komponente napraviti dvije varijable koje sadrže neki string
+	3.	Napraviti JSX element koji će prikazati neki tekst na ekranu
+	4.	Napraviti JSX element koji će prikazati neki tekst na ekranu + vrijednost jedne od varijabli
+	5.	Napraviti JSX element koji će prikazati obje varijable odvojene razmakom
